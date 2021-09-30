@@ -6,7 +6,7 @@ NestJS Module that adds a /health-check route to the module you import this into
 
 ## Usage
 
-This dynamic module has a static method `register()` that allows you to provide a service label as a parameter to include in the response of the health-check.
+This dynamic module has a static method `register()` that allows you to optionally provide a service label as a parameter to include in the response of the health-check.
 
 Here is a simple example based off of the starter NestJS application.
 
@@ -32,6 +32,7 @@ The application will now have a route `/health-check` that will return the follo
 }
 ```
 
+*If no value is passed to the register method, the `service` key will be omitted from the response*
 ---
 
 ## Test

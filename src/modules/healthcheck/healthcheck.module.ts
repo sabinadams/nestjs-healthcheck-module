@@ -3,9 +3,7 @@ import { HealthCheckController } from './healthcheck.controller'
 
 @Module({})
 export class HealthCheckModule {
-    static register(
-        _serviceName: string
-    ): DynamicModule {
+    static register(_serviceName: any = null): DynamicModule {
         return {
             module: HealthCheckModule,
             controllers: [HealthCheckController],

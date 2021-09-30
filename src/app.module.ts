@@ -5,7 +5,7 @@ import { HealthCheckModule } from './modules/healthcheck/healthcheck.module';
 import { AppService } from './app.service';
 
 @Module({
-  imports: [HealthCheckModule.register('TEST SERVICE')],
+  imports: [HealthCheckModule.register()],
   controllers: [AppController],
   providers: [AppService],
 })
