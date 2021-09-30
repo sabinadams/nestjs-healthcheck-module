@@ -1,12 +1,13 @@
 {
   "name": "nest-healthcheck",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "NestJS Module that adds a health-check route",
   "author": "Sabin Adams",
   "main": "dist/main",
   "types": "dist/main",
   "private": false,
   "license": "UNLICENSED",
+  "homepage": "https://github.com/sabinadams/nestjs-healthcheck-module#readme",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
