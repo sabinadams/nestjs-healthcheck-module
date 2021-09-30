@@ -6,7 +6,9 @@ NestJS Module that adds a `/health-check` route to the module you import this in
 
 ## Usage
 
-Install the package via npm: `npm install nest-healthcheck`
+```shell
+npm install nest-healthcheck
+```
 
 This dynamic module has a static method `register()` that allows you to optionally provide a service label as a parameter to include in the response of the health-check.
 
