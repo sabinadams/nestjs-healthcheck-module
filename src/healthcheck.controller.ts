@@ -6,7 +6,7 @@ export class HealthCheckController {
 
     constructor( @Inject('SERVICE_NAME') private readonly SERVICE_NAME ) {}
 
-	@Get()
+    @Get()
     healthCheck(): HealthCheckResponse {
         return {
             payload: 'OK',
