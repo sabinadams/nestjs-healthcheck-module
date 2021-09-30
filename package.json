@@ -1,6 +1,6 @@
 {
   "name": "nest-healthcheck",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NestJS Module that adds a health-check route",
   "author": "Sabin Adams",
   "main": "dist/main",
