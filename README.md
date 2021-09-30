@@ -1,6 +1,6 @@
 ## Description
 
-NestJS Module that adds a /health-check route to the module you import this into with a configurable service label.
+NestJS Module that adds a `/health-check` route to the module you import this into with a configurable service label.
 
 ---
 
