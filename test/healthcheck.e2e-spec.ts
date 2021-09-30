@@ -1,6 +1,6 @@
 import * as request from 'supertest';
 import { Test } from '@nestjs/testing';
-import { HealthCheckModule } from '../src/modules/healthcheck/healthcheck.module';
+import { HealthCheckModule } from '../src/healthcheck.module';
 import { INestApplication } from '@nestjs/common';
 
 describe('HealthCheck (e2e)', () => {

@@ -6,12 +6,14 @@ NestJS Module that adds a `/health-check` route to the module you import this in
 
 ## Usage
 
+Install the package via npm: `npm install nest-healthcheck`
+
 This dynamic module has a static method `register()` that allows you to optionally provide a service label as a parameter to include in the response of the health-check.
 
 Here is a simple example based off of the starter NestJS application.
 
 ```typescript
-import { HealthCheckModule } from '/<location-to-module>/healthcheck.module';
+import { HealthCheckModule } from 'nest-healthcheck';
 
 import { AppService } from './app.service';
 
@@ -50,7 +52,3 @@ $ npm run test:e2e
 
 ## To-Do
 - Allow full configuration of response, not just a service label
-- Package up as a re-usable npm package that would allow something like:
-  ```javascript
-    import { HealthCheckModule } from '@respository/common'
-  ```

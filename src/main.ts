@@ -1,8 +1,4 @@
-import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
+import { HealthCheckModule } from './healthcheck.module'
+import { HealthCheckResponse } from 'healthcheck-response.interface'
 
-async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
-  await app.listen(3000);
-}
-bootstrap();
+export { HealthCheckModule, HealthCheckResponse }
