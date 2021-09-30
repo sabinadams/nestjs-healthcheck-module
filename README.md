@@ -33,6 +33,7 @@ The application will now have a route `/health-check` that will return the follo
 ```
 
 *If no value is passed to the register method, the `service` key will be omitted from the response*
+
 ---
 
 ## Test
